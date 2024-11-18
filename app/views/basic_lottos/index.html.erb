@@ -1,0 +1,13 @@
+<div class="lotto-games">
+  <br>
+  <%= link_to 'New Basic Lotto', new_basic_lotto_path %>
+  <br> <br> <br>
+  <% @basic_lottos.each do |lottos| %>
+    <div class="lotto-game">
+    <% lottos.ordered_rolls_values.each do |value| %>
+        <div class=<%= colour_by_value(value) %>><%= value %></div>
+    <% end %>
+    </div>
+    <br> <br> <br>
+  <% end %>
+</div>

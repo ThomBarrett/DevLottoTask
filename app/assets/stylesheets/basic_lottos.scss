@@ -1,0 +1,36 @@
+// Place all the styles related to the BasicLotto controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.lotto-games{
+  margin-left: 35%;
+  width: 300px;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.lotto-game{
+  background-color: paleturquoise;
+}
+
+.v1-9{
+  background-color: gray;
+  display: inline-block;
+}
+
+.v10-19{
+  background-color: dodgerblue;
+  display: inline-block;
+}
+.v20-29{
+  background-color: hotpink;
+  display: inline-block;
+}
+.v30-39{
+  background-color: green;
+  display: inline-block;
+}
+.v40-49{
+  background-color: yellow;
+  display: inline-block;
+}
